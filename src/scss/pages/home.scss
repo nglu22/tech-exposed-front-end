@@ -1,0 +1,65 @@
+.home__landing-page{
+    padding-top:120px;
+    .row{
+        .col-md-4,.col-sm-6{
+            padding-left:5%;
+        }
+        align-content: center;
+        div{
+            span{
+                color:$color-tertiary;
+            }
+            p{
+                font-size: 1.4rem;
+            }
+            button{
+                border-color: $color-tertiary;
+                border-radius: 2rem;
+                color: $color-tertiary;
+            }
+        }
+    }
+}
+.home__our-service{
+   .heading{
+       text-align: center;
+       .heading-large{
+           width:100%;
+       }
+       .heading-medium{
+           width:100%;
+           color:$color-primary;
+       }
+   }
+   .body .col-md-6{
+       padding:5%;
+       color:$color-tertiary;
+   }
+}
+.home__comments{
+    padding:4%;
+    .row {
+        text-align: center;
+        .col-md-6 span{
+            color: $color-tertiary;
+        }
+        .text{
+            p{
+                padding: 7%;
+                font-size:2rem; 
+            }
+        }
+        .image{
+            img{
+                max-height: 20rem;
+                max-width: 20rem;
+                height: 100%;
+                width: 100%;
+                border-radius: 50%;
+            }
+            p{
+                font-size: 2rem;
+            }
+        }
+    }
+}

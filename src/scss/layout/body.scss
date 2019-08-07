@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+    }
+body {
+    margin: 0;
+    font-size: 62.5%;
+    font-family: Helvetica, sans-serif;
+    background: $color-primary;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, $color-primary, $color-tertiary);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right,  $color-primary, $color-tertiary); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.row{
+    margin:0 !important;
+}
+
